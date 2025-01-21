@@ -25,7 +25,9 @@ date_default_timezone_set('Asia/Manila');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/Learning/aex/maharlika/public/admin/';
+// $config['base_url'] = 'http://localhost/Learning/aex/maharlika/public/admin/';
+$config['base_url'] = 'https://maharlika.app/admin/';
+
 
 /*
 |--------------------------------------------------------------------------
