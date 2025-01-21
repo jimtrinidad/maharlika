@@ -4,7 +4,8 @@ body{ background-color: #fff; font-family: helvetica; }
 
 body.market-place{ background-color: #fff;}
 
-#header{ text-align: center; background: url('../images/header-bg.jpg') no-repeat; background-size: cover; padding: 20px 0px;}
+/* #header{ text-align: center; background: url('../images/header-bg.jpg') no-repeat; background-size: cover; padding: 20px 0px;} */
+#header{ text-align: center; background-size: cover; padding: 20px 0px;}
 #header a img{ width: 100%; position:relative; top: 5px;}
 
 #mobile-menu{position: relative; background: #fa0400; text-align: center;  padding: 5px 20px; text-transform: uppercase; font-weight: bold; font-size: 20px; color: #fff;}
