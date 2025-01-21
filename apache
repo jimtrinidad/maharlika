@@ -1,0 +1,39 @@
+<VirtualHost *:80>
+  ServerName maharlika.app
+  ServerAlias www.maharlika.app
+
+  Redirect permanent / https://maharlika.app/
+  RewriteEngine on
+  RewriteCond %{SERVER_NAME} =maharlika.app [OR]
+  RewriteCond %{SERVER_NAME} =www.maharlika.app
+  RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+</VirtualHost>
+
+<VirtualHost *:443>
+     ServerName maharlika.app
+     ServerAlias www.maharlika.app
+
+     Protocols h2 http:/1.1
+
+     <If "%{HTTP_HOST} == 'www.maharlika.app'">
+       Redirect permanent / https://maharlika.app/
+     </If>
+
+     DocumentRoot /var/www/maharlika/public
+     ErrorLog ${APACHE_LOG_DIR}/error.log
+     CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+     SSLEngine On
+
+     # Other Apache Configuration
+
+     <Directory /var/www/maharlika/public>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+        Include /etc/letsencrypt/options-ssl-apache.conf
+	SSLCertificateFile /etc/letsencrypt/live/maharlika.app-0001/fullchain.pem
+	SSLCertificateKeyFile /etc/letsencrypt/live/maharlika.app-0001/privkey.pem
+</VirtualHost>

@@ -1,0 +1,183 @@
+.logo-small {
+  max-width: 45px;
+  height: auto;
+}
+.logo-smaller {
+  max-width: 30px;
+  height: auto;
+}
+
+.indent-30 {
+  padding-left: 30px !important;
+}
+
+
+.hide {
+  display: none !important;
+}
+
+
+.gutter-5 {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.gutter-5>.col, .gutter-5>[class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+table.table-middle >tbody>tr>td,
+table.table-middle >tfoot>tr>td {
+  vertical-align: middle !important;
+}
+
+@media (max-width: 970px) {
+  .box-header>.box-tools {
+    position: unset;
+    margin-top: 10px;
+  }
+}
+
+/**
+* upload image
+*/
+
+.image-upload-container {
+	width: 145px;
+	height: 172px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.logo .image-upload-container {
+  width: 120px;
+  height: 120px;
+}
+
+.bigger.image-upload-container {
+  width: 170px;
+  height: 180px;
+  margin-top: 0;
+}
+
+.smaller.image-upload-container {
+  width: 50px;
+  height: 50px;
+  margin-top: 0;
+}
+
+.small.image-upload-container {
+  width: 75px;
+  height: 75px;
+  margin-top: 0;
+}
+
+.banner.image-upload-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+.image-preview{
+	width: 145px;
+	height: 150px;
+	min-height: 150px;
+  cursor: pointer;
+}
+
+.logo .image-preview{
+  width: 120px;
+  height: 120px;
+  min-height: 120px;
+}
+
+.bigger .image-preview{
+  width: 170px;
+  height: 170px;
+  min-height: 50px;
+}
+
+.smaller .image-preview{
+  width: 50px;
+  height: 50px;
+  min-height: 50px;
+}
+
+.small .image-preview{
+  width: 75px;
+  height: 75px;
+  min-height: 75px;
+}
+
+.banner .image-preview{
+  width: auto;
+  height: auto;
+  min-height: 0;
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+.hiddenFileInput > input{
+  height: 100%;
+  width: 145px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.logo .hiddenFileInput > input{
+  width: 120px;
+}
+
+.smaller .hiddenFileInput > input{
+  width: 50px;
+}
+
+.banner .hiddenFileInput > input{
+  width: 600px;
+}
+
+.hiddenFileInput{
+  border: 0;
+  width: 145px;
+  height: 30px;
+  display: inline-block;
+  overflow: hidden;
+  
+  /*for the background, optional*/
+  background: center center no-repeat;
+  background-size: 100% 100%;
+  background-image:  url('../images/upload-button.png');
+}
+
+.logo .hiddenFileInput{
+  width: 120px;
+  height: 30px;
+}
+
+.smaller .hiddenFileInput{
+  width: 50px;
+  height: 30px;
+}
+
+.banner .hiddenFileInput{
+  width: 600px;
+  height: 30px;
+}
+
+
+.hiddenFileInput.hide {
+  width: 0 !important;
+  height: 0 !important;
+}
+.hiddenFileInput.hide > input {
+  width: 0 !important;
+  height: 0 !important;
+}
+/* END */
+
+
+#invoiceModal .modal-body p {
+  padding: 0;
+  margin: 0;
+}
