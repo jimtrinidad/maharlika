@@ -91,4 +91,4 @@ define('PHOTO_DIRECTORY', PUBLIC_DIRECTORY . 'assets/profile/');
 define('LOGO_DIRECTORY', PUBLIC_DIRECTORY . 'assets/logo/');
 define('UPLOADS_DIRECTORY', PUBLIC_DIRECTORY . 'assets/uploads/');
 define('PRODUCTS_DIRECTORY', PUBLIC_DIRECTORY . 'assets/products/');
-define('TITLE_PREFIX', 'Ambilis ADMIN | ');
+define('TITLE_PREFIX', 'Maharlika ADMIN | ');

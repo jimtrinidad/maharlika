@@ -5,8 +5,12 @@ body{ background-color: #fff; font-family: helvetica; }
 body.market-place{ background-color: #fff;}
 
 /* #header{ text-align: center; background: url('../images/header-bg.jpg') no-repeat; background-size: cover; padding: 20px 0px;} */
-#header{ text-align: center; background-size: cover; padding: 20px 0px;}
-#header a img{ width: 100%; position:relative; top: 5px;}
+#header{ text-align: center; background-size: cover; padding: 0px;
+	background: url('../images/g2.png') repeat-x 0px;
+}
+#header a img{ width: 50%; position:relative;}
+
+.inside #header {background: url('../images/g1.png') repeat-x 0px;}
 
 #mobile-menu{position: relative; background: #fa0400; text-align: center;  padding: 5px 20px; text-transform: uppercase; font-weight: bold; font-size: 20px; color: #fff;}
 
@@ -47,6 +51,7 @@ body.market-place{ background-color: #fff;}
 
 .my-connections p{ margin-bottom: 0px;}
 
+.container.registration {padding-top:30px}
 .registration{ background: #fff; }
 .registration header{ text-align: center; margin-top: 50px; }
 .registration header img{width: 300px;}
@@ -63,7 +68,7 @@ body.market-place{ background-color: #fff;}
 .login .content .btn-auth span{ width: 75%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; position:relative; top: 5px;}
 
 
-.login #header a img, .registration #header a img{ width: 100%!important; top: 60px;}
+.login #header a img, .registration #header a img{ width: 80%!important;}
 
 .main-login{ margin-top: 60px;}
 
@@ -219,6 +224,9 @@ border-radius: 50px 50px 50px 50px; color: #fff; text-align: center; font-size: 
 
 	.transactions{ background: url('../images/icons/transactions-icon.png') no-repeat 5px 14px; background-size: 25px 25px; padding-left: 35px!important; font-size: 12px;}
 	.transactions span{ line-height: 15px; color: #000;}
+
+	.login #header a img, .registration #header a img{ width: 100%!important;}
+	#header a img{ width: 100%; position:relative;}
 }
 
 @media (max-width: 420px) {
