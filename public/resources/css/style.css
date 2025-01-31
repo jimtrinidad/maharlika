@@ -68,7 +68,7 @@ body.market-place{ background-color: #fff;}
 .login .content .btn-auth span{ width: 75%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; position:relative; top: 5px;}
 
 
-.login #header a img, .registration #header a img{ width: 80%!important;}
+.login #header a img, .registration #header a img{ width: 50%!important;}
 
 .main-login{ margin-top: 60px;}
 
