@@ -48,7 +48,7 @@
 							<input type="text" class="form-control bg-cream" placeholder="Email" id="account_email" name="account_email" />
 						</div>
 						<div class="col-12 col-md-8">
-							<div class="g-recaptcha" data-sitekey="6Lfu4NAqAAAAAMGLwNqy-53ChOeIaqxGFng4UOPz"></div>
+							<div class="g-recaptcha" data-sitekey="6LdS4tAqAAAAAKtfKk0XyVd9AKvAXehk7-UErUBm"></div>
 						</div>
 					</div>
 					
